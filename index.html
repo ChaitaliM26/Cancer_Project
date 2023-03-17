@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Breast Cancer Prediction</title>
+</head>
+<body>
+
+    <h1>Breast Cancer Prediction</h1>
+   
+    <form method="POST" action="/predict">
+
+        <label>radius_mean</label><br>
+        <input type="text" name="radius_mean"><br><br>
+
+        <label>texture_mean</label><br>
+        <input type="text" name="texture_mean"><br><br>
+
+        <label>perimeter_mean</label><br>
+        <input type="text" name="perimeter_mean"><br><br>
+
+        <label>area_mean</label><br>
+        <input type="text" name="area_mean"><br><br>
+
+        <label>smoothness_mean</label><br>
+        <input type="text" name="smoothness_mean"><br><br>
+
+        <label>compactness_mean</label><br>
+        <input type="text" name="compactness_mean"><br><br>
+
+        <label>concavity_mean</label><br>
+        <input type="text" name="concavity_mean"><br><br>
+
+        <label>concave points_mean </label><br>
+        <input type="text" name="concave points_mean "><br><br>
+
+        <label>symmetry_mean</label><br>
+        <input type="text" name="symmetry_mean"><br><br>
+
+        <label>fractal_dimension_mean</label><br>
+        <input type="text" name="fractal_dimension_mean"><br><br>
+
+        <label>radius_se</label><br>
+        <input type="text" name="radius_se"><br><br>
+
+        <label>texture_se</label><br>
+        <input type="text" name="texture_se"><br><br>
+
+        <label>perimeter_se</label><br>
+        <input type="text" name="perimeter_se"><br><br>
+
+        <label>area_se</label><br>
+        <input type="text" name="area_se"><br><br>
+
+        <label>smoothness_se</label><br>
+        <input type="text" name="smoothness_se"><br><br>
+
+        <label>compactness_se</label><br>
+        <input type="text" name="compactness_se"><br><br>
+
+        <label>concavity_se</label><br>
+        <input type="text" name="concavity_se"><br><br>
+
+        <label>concave points_se </label><br>
+        <input type="text" name="concave points_se "><br><br>
+
+        <label>symmetry_se</label><br>
+        <input type="text" name="symmetry_se"><br><br>
+
+        <label>fractal_dimension_se</label><br>
+        <input type="text" name="fractal_dimension_se"><br><br>
+
+        <label>radius_worst</label><br>
+        <input type="text" name="radius_worst"><br><br>
+
+        <label>texture_worst</label><br>
+        <input type="text" name="texture_worst"><br><br>
+
+        <label>perimeter_worst</label><br>
+        <input type="text" name="perimeter_worst"><br><br>
+
+        <label>area_worst</label><br>
+        <input type="text" name="area_worst"><br><br>
+
+        <label>smoothness_worst</label><br>
+        <input type="text" name="smoothness_worst"><br><br>
+
+        <label>compactness_worst</label><br>
+        <input type="text" name="compactness_worst"><br><br>
+
+        <label>concavity_worst</label><br>
+        <input type="text" name="concavity_worst"><br><br>
+
+        <label>concave points_worst</label><br>
+        <input type="text" name="concave points_worst"><br><br>
+
+        <label>symmetry_worst</label><br>
+        <input type="text" name="symmetry_worst"><br><br>
+
+        <label>fractal_dimension_worst</label><br>
+        <input type="text" name="fractal_dimension_worst"><br><br>
+
+
+        <input type="submit" value="Predict"><br><br>
+    </form>
+    <br>
+    <br>
+    <h1>{{chance_of_admit}}</h1>
+
+</body>
+</html>
