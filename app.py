@@ -82,5 +82,5 @@ def Breast_Cancer_Prediction():
 #     else:
 #         return "<h1 style='color:red'>NOT PLACED</h1>"   
 
-
-app.run(host="127.0.0.1",port=5000,debug=True)
+if __name__=='__main__':
+    app.run(host="127.0.0.1",port=5000,debug=True)
